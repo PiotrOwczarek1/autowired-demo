@@ -9,6 +9,7 @@ public class MainApp {
 
       TextEditor te = (TextEditor) context.getBean("textEditor");
       System.out.println("gg");
+      System.out.println("gg1");
       te.spellCheck();
    }
 }

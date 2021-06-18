@@ -8,7 +8,7 @@ public class MainApp {
       ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 
       TextEditor te = (TextEditor) context.getBean("textEditor");
-
+      System.out.println("gg");
       te.spellCheck();
    }
 }
